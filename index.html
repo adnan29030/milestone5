@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RESUME BUILDER</title>
+    <link rel="stylesheet" href="indax.css">
+</head>
+<body>
+    <h1> MILESTONE 5 SHAREABLE RESUME BUILDER</h1>
+    <form id="form">
+        <h1>Personnel Information</h1>
+        <label class="label" for="username">UserName:</label>
+            <input class="input" type="text" id="username" name="username" placeholder="Enter Your User Naem" required autocomplete="off">
+        <hr>  
+        <div class="form_group">
+            <label class="label" for="name">Name:</label>
+            <input class="input" type="text" id="name" name="name" required autocomplete="off">
+        </div>
+
+        <div class="form_group">
+            <label class="label" for="des">Designation:</label>
+            <input class="input" type="text" id="des" name="des" autocomplete="off">
+        </div>
+
+        <div class="form_group">
+            <label class="label" for="phone">Phone:</label>
+            <input class="input" type="tel" id="phone" required autocomplete="off">
+        </div>
+
+        <div class="form_group">
+            <label class="label" for="email">Email:</label>
+            <input class="input" type="email" id="email" autocomplete="off" required>
+        </div>
+
+        <div class="form_group">
+            <label class="label" for="add">Address:</label>
+            <input class="input" type="text" id="add" autocomplete="off">
+        </div>
+        <br>
+
+        <h1>Education</h1>
+        <hr>
+        <div class="form_group">
+            <label class="label" for="pss">Passing Year:</label>
+            <input class="input" type="date" id="pss" autocomplete="off">
+        </div>
+
+        <div class="form_group">
+            <label class="label" for="degree">Degree:</label>
+            <input class="input" type="text" id="degree" autocomplete="off">
+        </div>
+
+        <div class="form_group">
+            <label class="label" for="bu">Board/University:</label>
+            <input class="input" type="text" id="bu" autocomplete="off">
+        </div>
+
+         <br>
+
+        <h1>Skills</h1>
+        <hr>
+        <div class="form_group">
+            <label class="label sp" for="skill">Skills:</label>
+            <input class="input sp" type="text" id="skill">
+        </div>
+
+        <br>
+
+        <h1>Language</h1>
+        <hr>
+        <div class="form_group">
+            <label class="label" for="lang">Languages:</label>
+            <input class="input sp" type="text" id="lang">
+        
+        </div>
+        <br>
+        <h1>Experience</h1>
+        <hr>
+        <div class="form_group">
+            <label class="label " for="sy">Starting Year:</label>
+            <input class="input sp" type="text" id="sy">
+            <label class="label" for="ey">Ending Year:</label>
+            <input class="input sp" type="text" id="ey">        
+            <label class="label" for="comadd">Company Address:</label>
+            <input class="input sp" type="text" id="comadd">        
+            <label class="label" for="jobt">Job Title:</label>
+            <input class="input" type="text" id="jobt">        
+            <label class="label" for="rew">Rewards:</label>
+            <input class="input sp" type="text" id="rew">        
+        </div>
+        <br>
+        <hr>
+        <div class="btn">
+            <input id="sub_btn" onclick="test()" class="submit" type="submit">
+        </div>
+        
+    </form>
+
+        <!-- <div id="resumeOutput"> -->
+        <!-- Done the Resume -->
+         <!-- <h1 class="resumeinfo">Personnel Info</h1> -->
+         <!-- <img id="displaypicture"> -->
+         <!-- <h2 id="displayname"></h2> -->
+         <!-- <p id="displayphone"></p> -->
+         <!-- <p id="displayemail"></p> -->
+         <!-- <p id="displayaddress"></p> -->
+         <!-- <h1 class="resumeinfo">Skills</h1> -->
+         <!-- <p id="displayskills"></p> -->
+         <!-- <h1 class="resumeinfo">Education</h1> -->
+         <!-- <p id="displayeducation"></p> -->
+         <!-- <h1 class="resumeinfo">Experience</h1> -->
+         <!-- <p id="displayexsperience"></p> -->
+    <!-- </div> -->
+
+
+
+
+    <div id="resumeOutput" contenteditable="true"></div>
+    <br>
+    <section>
+        <div id="s_link">
+            <h1>Shareable Links</h1>
+            <a href="#" id="a_link" target="blank"></a>
+            <br>
+       <button id="btn">PDF File</button>
+        </div>
+
+    </section>
+    <script src="indax.js"></script> 
+      
+
+
+</body>
+</html>
